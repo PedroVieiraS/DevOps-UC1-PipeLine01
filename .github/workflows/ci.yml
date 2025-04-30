@@ -24,7 +24,7 @@ jobs:
           python gerar_relatorio.py
           python gerar_grafico.py
           mv relatorio.html relatorio-${{ github.sha }}.html
-          mv grafico.png grafico-${{ github.sha }}.png # Renomeia com o hash do commit  
+          mv grafico.png grafico-${{ github.sha }}.png
 
       - name: Upload Artefatos
         uses: actions/upload-artifact@v4

@@ -32,4 +32,4 @@ jobs:
           name: artefatos-processados
           path: |
             relatorio-*.html
-            grafico-*.png # Faz upload de todos os arquivos .png com esse padrão 
+            grafico-*.png
